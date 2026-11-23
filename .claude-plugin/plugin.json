@@ -1,0 +1,10 @@
+{
+  "name": "siu-video-editing",
+  "version": "1.0.0",
+  "description": "Method, house style and CapCut toolkit for editing Saigon International University (SIU) videos, delivered as an MP4 and an editable, layered CapCut project.",
+  "author": {
+    "name": "Nguyễn Việt Anh Khoa",
+    "url": "https://github.com/KhoaNguyen01004"
+  },
+  "repository": "https://github.com/KhoaNguyen01004/siu-video-editing-skill"
+}

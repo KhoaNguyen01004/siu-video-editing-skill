@@ -1,0 +1,8 @@
+# Python 3.10+ on Windows, plus ffmpeg/ffprobe on PATH (winget install Gyan.FFmpeg) and CapCut desktop (tested 9.8).
+pycapcut==0.0.4        # 0.1.0 renames the track API
+faster-whisper>=1.2    # lang_id.py, score_text.py, music_check.py --lyrics (downloads Whisper models on first use)
+librosa>=0.11          # music_check.py
+rembg>=2.0             # cutout.py, textcheck.py (downloads u2net_human_seg on first use)
+numpy
+scipy
+pillow

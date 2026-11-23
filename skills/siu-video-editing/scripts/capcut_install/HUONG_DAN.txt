@@ -1,0 +1,24 @@
+﻿{TITLE} · PROJECT CAPCUT (máy tính Windows)
+
+LƯU Ý: đừng import thư mục media vào một project mới (làm vậy chỉ có footage thô). Phải CÀI project như sau:
+
+CÁCH 1 – TỰ ĐỘNG (khuyên dùng)
+  1. Giải nén TOÀN BỘ file zip (chuột phải > Extract All…).
+  2. Tắt hẳn CapCut (cả biểu tượng dưới khay hệ thống, góc phải thanh taskbar).
+  3. Bấm đúp file  CAI_DAT_PROJECT.bat
+     (nếu Windows hiện "Windows protected your PC": bấm More info > Run anyway). Chờ đến khi báo XONG.
+  4. Mở CapCut, bấm vào project "{NAME}" trong danh sách Projects.
+     Lần mở đầu cần có mạng: CapCut tự tải font, hiệu ứng chữ, chuyển cảnh từ thư viện của nó.
+
+CÁCH 2 – THỦ CÔNG (nếu không chạy được file .bat)
+  1. Trong CapCut: Menu > Settings (Cài đặt) > Projects (Dự án) > xem "Draft location" (vị trí lưu dự án).
+     Mặc định là:  %LOCALAPPDATA%\CapCut\User Data\Projects\com.lveditor.draft
+  2. Tắt CapCut, chép cả thư mục {NAME} vào thư mục đó.
+  3. Mở CapCut, mở project. Đoạn nào báo thiếu media (màu đỏ): chuột phải > Link media (Liên kết phương tiện), chọn
+     file cùng tên trong thư mục {NAME}\media. CapCut sẽ hỏi tự liên kết các file còn lại, chọn Đồng ý.
+
+CÁCH SỬA NHANH
+  Mỗi thành phần (footage, chữ, sticker, đồ hoạ, nhạc, voice, hiệu ứng âm thanh) nằm trên một track riêng có tên.
+  Bấm vào track để chọn, sửa chữ trực tiếp, kéo để dời, Ctrl+C / Ctrl+V để thêm một dòng chữ cùng kiểu.
+  Âm lượng nhạc nền có keyframe (giảm khi có người nói): xem đường âm lượng trên track nhạc trước khi kéo cắt nhạc.
+  Xuất video: Export (góc phải trên) > 1080p, 30 fps, H.264, bỏ chọn "Sync exported videos to space".

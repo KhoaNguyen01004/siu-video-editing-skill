@@ -1,0 +1,17 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "siu-video",
+  "description": "Skill dựng video cho Trường Đại học Quốc tế Sài Gòn (SIU): recap, video phát biểu, xuất project CapCut cho khách tự chỉnh.",
+  "owner": {
+    "name": "Nguyễn Việt Anh Khoa",
+    "url": "https://github.com/KhoaNguyen01004"
+  },
+  "plugins": [
+    {
+      "name": "siu-video-editing",
+      "description": "Phương pháp, phong cách và bộ công cụ CapCut để dựng video SIU (Reels/TikTok) kèm project CapCut khách tự chỉnh được.",
+      "source": "./",
+      "category": "productivity"
+    }
+  ]
+}
